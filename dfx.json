@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "iusd_protocol": {
+      "type": "rust",
+      "package": "iusd_protocol",
+      "candid": "src/iusd_protocol.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
